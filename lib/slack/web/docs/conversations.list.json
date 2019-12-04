@@ -1,10 +1,5 @@
 {
     "args": {
-        "channel": {
-            "desc": "ID of conversation to archive",
-            "required": true,
-            "type": "channel"
-        },
         "cursor": {
             "desc": "Paginate through collections of data by setting the cursor parameter to a next_cursor attribute returned by a previous request's response_metadata. Default value fetches the first 'page' of the collection. See pagination for more detail.",
             "required": false
