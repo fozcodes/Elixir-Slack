@@ -1,17 +1,12 @@
 {
     "args": {
-        "channel": {
-            "desc": "ID of conversation to archive",
-            "required": true,
-            "type": "channel"
+        "name": {
+            "desc": "Authentication token bearing required scopes.",
+            "required": true
         },
         "is_private": {
             "desc": "Create a private channel instead of a public one",
             "required": false
-        },
-        "name": {
-            "desc": "Authentication token bearing required scopes.",
-            "required": true
         },
         "user_ids": {
             "desc": "Required for workspace apps. A list of between 1 and 30 human users that will be added to the newly-created conversation. This argument has no effect when used by classic Slack apps.",
